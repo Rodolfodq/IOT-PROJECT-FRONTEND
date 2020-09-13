@@ -1,14 +1,14 @@
 import React from 'react';
 
-import {BsFillPersonPlusFill} from "react-icons/bs";
+import { RiRemoteControlLine } from "react-icons/ri";
 import { Container, Form, FieldsDiv } from './styles'
 
-function Register(){
+function SensorNew(){
     return(
         <Container>
             <h1>
-                <BsFillPersonPlusFill color="#000" size={50}/>
-                REGISTRAR
+                <RiRemoteControlLine color="#000" size={50}/>
+                NOVO SENSOR
             </h1>
 
             <FieldsDiv>
@@ -16,22 +16,15 @@ function Register(){
                 <ul>
                     <input
                         type = "text"
-                        placeholder="E-MAIL"
+                        placeholder="NOME"
                         autoFocus
                     />
                 </ul>
                 <br/>
                 <ul>
                     <input
-                        type = "password"
-                        placeholder="SENHA"
-                    />
-                </ul>
-                <br/>
-                <ul>
-                    <input
-                        type = "password"
-                        placeholder="CONFIRME A SENHA"
+                        type = "text"
+                        placeholder="FUNÇÃO"
                     />
                 </ul>
 
@@ -49,4 +42,4 @@ function Register(){
         );
 };
 
-export default Register
+export default SensorNew

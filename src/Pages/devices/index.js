@@ -1,14 +1,14 @@
 import React from 'react';
 
-import {BsFillPersonPlusFill} from "react-icons/bs";
+import { RiCpuLine } from "react-icons/ri";
 import { Container, Form, FieldsDiv } from './styles'
 
-function Register(){
+function DeviceNew(){
     return(
         <Container>
             <h1>
-                <BsFillPersonPlusFill color="#000" size={50}/>
-                REGISTRAR
+                <RiCpuLine color="#000" size={50}/>
+                NOVO EQUIPAMENTO
             </h1>
 
             <FieldsDiv>
@@ -16,22 +16,29 @@ function Register(){
                 <ul>
                     <input
                         type = "text"
-                        placeholder="E-MAIL"
+                        placeholder="NOME"
                         autoFocus
                     />
                 </ul>
                 <br/>
                 <ul>
                     <input
-                        type = "password"
-                        placeholder="SENHA"
+                        type = "text"
+                        placeholder="MODELO"
                     />
                 </ul>
                 <br/>
                 <ul>
                     <input
-                        type = "password"
-                        placeholder="CONFIRME A SENHA"
+                        type = "text"
+                        placeholder="MAC-ID"
+                    />
+                </ul>
+                <br/>
+                <ul>
+                    <input
+                        type = "text"
+                        placeholder="LOCALIZAÇÃO"
                     />
                 </ul>
 
@@ -49,4 +56,4 @@ function Register(){
         );
 };
 
-export default Register
+export default DeviceNew

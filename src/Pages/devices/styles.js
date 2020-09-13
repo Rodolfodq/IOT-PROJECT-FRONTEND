@@ -10,7 +10,7 @@ export const Container = styled.div`
 
     h1{
         font-weight: bold;
-        font-size: 30px;
+        font-size: 20px;
         display: flex;
         flex-direction: row;
         align-items: center;

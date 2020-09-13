@@ -13,7 +13,8 @@ export default createGlobalStyle`
     }
 
     body{
-        background-image: linear-gradient(to bottom right, #360033, #0b8793);
+        /*background-image: linear-gradient(to bottom right, #283048, #859398);*/
+        background: linear-gradient(to bottom right,  #000, #0D1B2A, #1B263B, #778DA9, #E0E1DD); /* W3C */
         -webkit-font-smoothing: antialiased !important;
     }
 
